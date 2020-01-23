@@ -29,6 +29,7 @@ ul {
 }
 .image-number {
   align-items: center;
+  color: grey;
 }
 .authors > li {
   display: flex;
@@ -38,4 +39,12 @@ span {
 }
 .image-number::before {
   content: "#";
+  color: grey;
+}
+.image-caption > span {
+  color: grey;
+}
+.image-caption > span > a {
+  color: black;
+  border-bottom: none;
 }
