@@ -1,0 +1,41 @@
+body {
+}
+ul {
+  list-style: none;
+}
+.octodex {
+  display: flex;
+}
+.octocat > a > img {
+  display: flex;
+  width: 400px;
+  border-style: solid;
+  border-color: rgb(192, 191, 191);
+  margin-right: 25px;
+}
+.authors > li > a > img {
+  display: flex;
+  width: 25px;
+}
+.image-caption {
+  display: flex;
+  align-items: center;
+}
+.image-footer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px grey;
+  margin-right: 25px;
+}
+.image-number {
+  align-items: center;
+}
+.authors > li {
+  display: flex;
+}
+span {
+  padding: 5px;
+}
+.image-number::before {
+  content: "#";
+}
